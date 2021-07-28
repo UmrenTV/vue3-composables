@@ -20,7 +20,7 @@ components: { Scroller }
 
 <scroller :sections="sections :current="currentSection" @changed=scrollToSection ></scroller>
 
-### Note: in your template, where you use the scroller, make sure to name the id's of your sections that you want the scroller to work with, and in step 4. provide the section id's in the array named "sections", with the exact same id names as you named your sections. (Sections can be any element, not nessecarily a <section>. You can use litteraly any other element.)
+### Note: in your template, where you use the scroller, make sure to name the id's of your sections that you want the scroller to work with, and in step 4. provide the section id's in the array named "sections", with the exact same id names as you named your sections. (Sections can be any element, not nessecarily a "<section>". You can use litteraly any other element.)
 
 ### Last Note (promise xD): You can modify the Scroller.vue template, and style the links whatever to wahtever you want. Images, SVGs, a, div.. etc. Just make sure to not touch the class and the dynamic :class, so you have the status indicator style, and if you don't like the default color (orange), modify the .active class in the Scroller.vue css.
 
